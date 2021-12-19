@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>575</width>
+    <height>474</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>holaaa</string>
+  </property>
+  <widget class="QLabel" name="lblInter">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>120</y>
+     <width>211</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bahnschrift SemiBold Condensed</family>
+     <pointsize>19</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string> </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblNewton">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>270</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bahnschrift SemiBold Condensed</family>
+     <pointsize>19</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string> </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblSist">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>500</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bahnschrift SemiBold Condensed</family>
+     <pointsize>19</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string> </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="lagrangeBtn">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>800</y>
+     <width>50</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bahnschrift Light SemiCondensed</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #000000;
+    border-radius: 10px;
+    font: bold 14px;
+	color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>Fórmulas de Newton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="trapecioBtn">
+   <property name="geometry">
+    <rect>
+     <x>23</x>
+     <y>219</y>
+     <width>300</width>
+     <height>44</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bahnschrift Light Condensed</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #000000;
+    border-radius: 10px;
+    font: bold 14px;
+	color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>Método del Trapecio</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="simpsonTabBtn">
+   <property name="geometry">
+    <rect>
+     <x>23</x>
+     <y>340</y>
+     <width>300</width>
+     <height>44</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bahnschrift Light Condensed</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #000000;
+    border-radius: 10px;
+    font: bold 14px;
+	color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>Método Simpson 3/8</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="puntoBtn">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>900</y>
+     <width>11</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bahnschrift Light Condensed</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #000000;
+    border-radius: 10px;
+    font: bold 14px;
+	color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>Punto Fijo</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="simpsonBtn">
+   <property name="geometry">
+    <rect>
+     <x>23</x>
+     <y>90</y>
+     <width>300</width>
+     <height>44</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bahnschrift Light Condensed</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #000000;
+    border-radius: 10px;
+    font: bold 14px;
+	color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>Método Simpson 1/3 </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="inicioBtn">
+   <property name="geometry">
+    <rect>
+     <x>385</x>
+     <y>38</y>
+     <width>161</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bahnschrift Light SemiCondensed</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #000000;
+    border-radius: 10px;
+    font: bold 14px;
+	color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>Regresar a inicio</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
